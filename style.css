@@ -84,8 +84,10 @@
     background-image: url("image/nature-2.png");
 }
 
+
+/* Back Ground image for story section */
 .bg-story {
-    
+
     background-image: linear-gradient(rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.548)), url("./image/about-image.webp");
     height: 35vh;
     background-size: cover;
@@ -114,4 +116,195 @@
     font-variant: initial;
 }
 
-.story ul li {}
+
+/* For dropdown menu  */
+
+.dropdown-submenu-1 {
+    position: relative;
+}
+
+.dropdown-submenu .dropdown-menu-1 {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+}
+
+/* Back ground image for contact section */
+
+.bg-contact {
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.548)), url("./image/contact-background.jpg");
+    height: 35vh;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+}
+
+/* Back ground image for fall section */
+.bg-fall {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.548)), url("./image/fall.jpeg");
+    height: 55vh;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+}
+
+/* fall section  content  */
+
+.text {
+    color: #b26b53;
+}
+
+.para {
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    color: #5d5d5d;
+}
+
+.btn {
+    background-color: #b26b53;
+    color: white;
+
+}
+
+/* fall class for padding */
+.fall {
+    padding: 100px 0px 100px 0;
+}
+
+
+.fall-con {
+    height: 500px;
+    width: 100%;
+    padding-top: 140px;
+}
+
+.fall-con h2 {
+    color: #b26b53;
+}
+
+.fall-con p {
+    line-height: 20px;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.cont h2 {
+    color: #b26b53;
+
+}
+
+.cont P {
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 20px;
+}
+
+.cont img {
+    margin-top: 100px;
+}
+
+.know-more {
+    height: 350px;
+    width: 100%;
+    background-color: #9e5036da;
+    text-align: center;
+
+}
+
+.know-more h2 {
+    color: white;
+    margin-top: 130px;
+    font-size: 38px;
+}
+
+/* Halloween section  */
+.bg-halloween {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.548)), url("./image/fall-3.jpg");
+    height: 55vh;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+}
+
+/* Fall crousel content  */
+.crousel-content {
+    font-weight: 700;
+    font-size: 24px;
+    color: #b26b53;
+}
+
+/* fall btn  */
+.fall-btn {
+    padding: 20px;
+}
+
+.fall-btn button {
+    padding: 10px 25px;
+    background-color: #b26b53;
+    color: white;
+    border: none;
+}
+
+.fall-btn button:hover {
+    background-color: #000;
+    color: white;
+}
+
+.btn-catalouge button {
+    background-color: #b26b53;
+    color: white;
+    padding: 15px 35px;
+    border: none;
+}
+
+.btn-catalouge button:hover {
+    background-color: black;
+    color: white;
+}
+
+/* hall-btn  */
+.hall-btn button {
+    /* padding: 10px 25px; */
+    background-color: #b26b53;
+    color: white;
+    border: none;
+}
+
+.hall-btn button:hover {
+    background-color: #000;
+    color: white;
+}
+
+.img {
+    width: 100%;
+
+}
+
+.img h2 {
+    width: 100%;
+    font-size: 60px;
+    font-weight: 700;
+    color: whitesmoke;
+
+}
+
+/* hall section content  */
+
+.wraper-content {
+    /* padding-left: 10px; */
+}
+
+.wraper-content h2 {
+    color: #b26b53;
+    margin-top: 120px;
+
+}
+
+.wraper-content p {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.head {}
